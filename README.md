@@ -1,9 +1,9 @@
-# ☕ Coffee Sales Analytics Dashboard
+# Coffee Retail Analytics Dashboard
 
-## 📝 Overview
-The Coffee Sales Analytics Dashboard is a Power BI project designed to visualize sales data for a local coffee shop chain. It highlights key performance indicators (KPIs) such as total sales, total orders, and total quantity sold, with detailed insights by product category, product type, store location, and sales trends over time. This dashboard helps stakeholders analyze sales patterns, identify top-performing products, and optimize business operations.
+##  Overview
+A data analytics dashboard project focused on coffee retail sales performance, product trends, store-level revenue insights, and customer purchasing patterns. The project includes data cleaning, exploratory analysis, visualization, and business insight generation for retail decision-making.
 
-## 📊 Dataset
+##  Dataset
 - **transaction_id**: Unique identifier for each transaction.
 - **transaction_date**: Date of the transaction.
 - **transaction_time**: Time of the transaction.
@@ -16,7 +16,7 @@ The Coffee Sales Analytics Dashboard is a Power BI project designed to visualize
 - **product_type**: Type of product within the category.
 - **product_detail**: Specific details of the product.
 
-### 🧮 DAX Formulas
+###  DAX Formulas
 - **Key Metrics and Formulas**:
     - **Total Sales**: Sum of sales revenue for the selected period.
         - Formula: `SUM(Transactions[Sales])`
@@ -42,7 +42,7 @@ The Coffee Sales Analytics Dashboard is a Power BI project designed to visualize
             )
             ```
 
-## 🖥️ Dashboard Components
+##  Dashboard Components
 The dashboard includes:
 - **Month Filter**: Dropdown to select the analysis period.
 - **KPIs**:
@@ -58,14 +58,8 @@ The dashboard includes:
 - **Sales by Day and Hour**:
     - Heatmap showing sales patterns across days of the week and hours of the day.
 
-## 📈 Dashboard
+##  Dashboard
 
 ![Coffee Sales Analysis](images/coffee-sales-analytics-dashboard-image.jpg)
 
-## 📬 Contact
 
-For questions, feedback, or collaboration, please contact:
-
-- **Name:** Ayushi Dhariwal  
-- **Email:** ayushichoudhary141@gmail.com  
-- **LinkedIn:** [linkedin.com/in/Ayushi-2811](https://www.linkedin.com/in/Ayushi-2811/)
